@@ -7,8 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="EDF-Csharp" Version="0.6.2" />
+    <PackageReference Include="libtorch-cpu-linux-x64" Version="1.11.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.9" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.9" PrivateAssets="all" />
+    <PackageReference Include="TorchSharp" Version="0.98.3" />
   </ItemGroup>
 
 </Project>
